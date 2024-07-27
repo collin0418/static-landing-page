@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1f2937;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  color: #f9faf8;
+  font-size: 24px;
+  padding-left: 10%;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  list-style-type: none;
+}
+
+li {
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 90px 0 90px;
+  gap: 10px;
+}
+
+.home-text {
+  max-width: 30%;
+}
+
+.home-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 5px;
+}
+
+.home-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.home-image {
+  max-width: 30%;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-signup {
+  background-color: #3882f6;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.home-signup:hover {
+  cursor: pointer;
+  background-color: #2471ec;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 70px;
+}
+
+.section-2 h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-boxes {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.info-item {
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.item-frame {
+  width: 100%;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 70px 0 70px;
+}
+
+.section-3 article {
+  width: 50%;
+}
+
+.testimonial > p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.testimonial p:last-child {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: right;
+}
+
+.section-4 {
+  padding: 70px 0 70px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #3882f6;
+  width: 50%;
+  gap: 10px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.signup-container button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 2rem;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.signup-container button:hover {
+  cursor: pointer;
+}
+
+.signup-text p:last-child {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+}
